@@ -36,7 +36,7 @@ npm install
 To start the development server, run the following command:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 This will launch the application in development mode. You can access it at http://localhost:3000.
@@ -45,14 +45,14 @@ This will launch the application in development mode. You can access it at http:
 To run the unit tests using Jest and react-testing-library, use the following command:
 
 ```bash
-npm test
+yarn test
 ```
 
 ### Building
 If you want to build the project for production, you can use the following command:
 
 ```bash
-npm run build
+yarn build
 ```
 
 This will generate the production-ready build in the `dist` directory.
