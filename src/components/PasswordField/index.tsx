@@ -6,6 +6,7 @@ import Validations from "./validations";
 type Validation = {
   title: string;
   validation: (arg0: string) => boolean;
+  dataTestId?: string;
 };
 
 type PasswordProps = {
@@ -25,12 +26,13 @@ function Password(props: PasswordProps) {
       <PasswordInput onChange={handleInput} />
       <Validations.Container>
         {validations
-          .map(({validation, ...rest}) => ({ success: validation(userPassword), ...rest }))
+          .map(({ validation, ...rest }) => ({ success: validation(userPassword), ...rest }))
           .map((validation, index) => (
             <Validations.Item
               title={validation.title}
               success={validation.success}
               key={index}
+              dataTestId={validation.dataTestId}
             />
           ))}
       </Validations.Container>

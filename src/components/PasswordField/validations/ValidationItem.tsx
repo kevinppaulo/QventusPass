@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-interface ValidationItemProps {
+export interface ValidationItemProps {
   title: string;
   success: boolean;
+  dataTestId?: string;
 }
 
 type IconProps = {
@@ -28,7 +29,7 @@ function ValidationItem(props: ValidationItemProps) {
   const iconContent = success ? "✔" : "x";
   return (
     <ListItem>
-      <Icon variant={variant}>{iconContent}</Icon>
+      <Icon data-testid={props.dataTestId} variant={variant}>{iconContent}</Icon>
       {title}
     </ListItem>
   );
