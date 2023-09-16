@@ -1,5 +1,7 @@
 # Password Validation Project
 
+![build status](https://github.com/kevinppaulo/QventusPass/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+
 This is a sample project demonstrating password field validation using React with TypeScript, styled-components for styling, and react-testing-library with Jest for unit testing. The project provides a password input field with various validations, allowing users to check if their password meets specific criteria.
 
 ## Features
