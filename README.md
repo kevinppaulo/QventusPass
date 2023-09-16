@@ -20,7 +20,7 @@ Follow these steps to clone and run the project on your local machine:
 
 ### Prerequisites
 
-Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from the official [Node.js website](https://nodejs.org/).
+Make sure you have Node.js and npm or yarn installed on your system. You can download and install them from the official [Node.js website](https://nodejs.org/).
 
 ### Clone the Repository
 
@@ -31,7 +31,7 @@ cd QventusPass
 
 ### Install Dependencies
 ```bash
-npm install
+yarn i
 ```
 
 ### Start the Development Server
