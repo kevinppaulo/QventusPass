@@ -2,7 +2,13 @@
 
 ![build status](https://github.com/kevinppaulo/QventusPass/actions/workflows/firebase-hosting-merge.yml/badge.svg)
 
+
+![Working gif](https://i.imgur.com/EvdcqTv.gif)
+
 This is a sample project demonstrating password field validation using React with TypeScript, styled-components for styling, and react-testing-library with Jest for unit testing. The project provides a password input field with various validations, allowing users to check if their password meets specific criteria.
+
+## Hosting
+This project is hosted using Firebase Hosting and is accessible [Here](https://qventus-4ef7b.web.app/). The app may take a while to load at first due to cold start on the firebase server.
 
 ## Features
 
