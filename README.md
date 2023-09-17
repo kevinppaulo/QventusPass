@@ -37,7 +37,7 @@ cd QventusPass
 
 ### Install Dependencies
 ```bash
-yarn i
+yarn
 ```
 
 ### Start the Development Server
